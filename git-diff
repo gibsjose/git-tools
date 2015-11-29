@@ -1,2 +1,2 @@
 #!/bin/sh
-[ $# -eq 7 ] &amp;&amp; /usr/local/bin/extMerge "$2" "$5"
+[ $# -eq 7 ] && git-merge "$2" "$5"
